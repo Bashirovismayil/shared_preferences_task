@@ -9,7 +9,7 @@ class Page1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Login"),
+          title: const Text("Page 1"),
           centerTitle: true,
         ),
         body: Column(
@@ -25,7 +25,7 @@ class Page1 extends StatelessWidget {
                       ));
                 });
               },
-              child: const Text("Go to Home"),
+              child: const Text("Go to Page2"),
             ),
           ],
         ));
